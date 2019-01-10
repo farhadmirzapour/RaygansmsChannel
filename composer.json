@@ -1,5 +1,5 @@
 {
-  "name": "laravel-notification-channels/raygan-sms",
+  "name": "trez/raygan-sms-notification-channel",
   "type": "library",
   "description": "Raygan SMS Channel for Laravel 5.3+",
   "keywords": [
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-	  "NotificationChannels\\RayganSms\\": "src"
+	  "Trez\\RayganSmsChannel\\": "src"
     }
   },
   "config": {
