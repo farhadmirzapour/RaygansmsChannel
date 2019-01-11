@@ -29,8 +29,10 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 ```bash
 composer require trez/raygan-sms-notification-channel
 ```
-
+<div dir="rtl">
 چنانچه شما از نسخه پایین تر از 5.5 لاراول استفاده می نمایید serviseprovider  زیر را به پروژه خود اضافه نمایید:
+</div>
+
 ```php
 // config/app.php
 'providers' => [
@@ -73,10 +75,11 @@ SMSCRU_HOST=http://www1.smsc.kz/
 ],
 ...
 ```
-
+<div dir="rtl">
 ## نحوه استفاده
 
 با استفاده از متد `via()` این کانال را به notefication  خود اضاقه نمایید:
+</div>
 
 ```php
 use Illuminate\Notifications\Notification;
@@ -97,8 +100,9 @@ class AccountApproved extends Notification
     }
 }
 ```
-
+<div dir="rtl">
  متد `routeNotificationForSmscru()` جهت اطمینان در دریافت شماره تملس کاربر اضافه می نماییم : مورد نظر خود متد 
+</div>
 
 ```php
 public function routeNotificationForSmscru()
@@ -106,11 +110,11 @@ public function routeNotificationForSmscru()
     return $this->phone;
 }
 ```
-
+<div dir="rtl">
 ### متدها
 
 `content()`: متن ارسالی به دریافت کننده.
-
+</div>
 
 ## Credits
 
