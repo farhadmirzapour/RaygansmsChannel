@@ -37,7 +37,7 @@ composer require trez/raygan-sms-notification-channel
 // config/app.php
 'providers' => [
     ...
-    NotificationChannels\SmscRu\SmscRuServiceProvider::class,
+    NotificationChannels\RayganSms::class,
 ],
 ```
 
