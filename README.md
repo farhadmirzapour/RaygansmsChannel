@@ -16,12 +16,11 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 
 ## محتوا
 
-- [Installation](#installation)
-    - [نصب و پیکره بندی سرویس](#setting-up-the-RayganSms-service)
+- [نصب و پیکره بندی سرویس](#نصب و پیکره بندی سرویس)
 - [نحوه استفاده](#usage)
-    - [نحوه استفاده از سرویس در ارسال](#available-message-methods)
 
-## Installation
+
+## نصب و پیکره بندی سرویس
 
 با استفاده از composer  قادر به نصب این سرویس می باشید:
 </div>
