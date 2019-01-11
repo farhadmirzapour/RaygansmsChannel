@@ -34,7 +34,7 @@ composer require trez/raygan-sms-notification-channel
 ```
 <div dir="rtl" align="justify">
 توجه داشته باشید سرویس <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  به همراه این پکیج بصورت اتوماتیک بر روی پروژه شما نصب می شود.
-    بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، اقدامات مرتبط با نصب به پایان رسیده، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)اقدام نمایید.
+    بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، اقدامات مرتبط با نصب به پایان رسیده، در غیر این صورت مطابق مستندات مربوطه این پکیج (<a href="https://github.com/farhadmirzapour/RayganSms#%D9%BE%DB%8C%DA%A9%D8%B1%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D8%AF%D8%B1-%D9%84%D8%A7%D8%B1%D8%A7%D9%88%D9%84" >پیکره بندی در لاراول</a>)اقدام نمایید.
 </div>
 
 <div dir="rtl">
