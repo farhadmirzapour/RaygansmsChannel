@@ -20,7 +20,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 - [نحوه استفاده](#usage)
 
 
-## نصب و پیکره بندی سرویس
+## نصب 
 
 با استفاده از composer  قادر به نصب این سرویس می باشید:
 </div>
@@ -31,13 +31,6 @@ composer require trez/raygan-sms-notification-channel
 <div dir="rtl">
 چنانچه شما از نسخه پایین تر از 5.5 لاراول استفاده می نمایید serviseprovider  زیر را به پروژه خود اضافه نمایید:
 </div>
-
-```php
-// config/app.php
-'providers' => [
-    ...
-    NotificationChannels\RayganSms::class,
-],
 ```
 
 ### Setting up the SmscRu service
