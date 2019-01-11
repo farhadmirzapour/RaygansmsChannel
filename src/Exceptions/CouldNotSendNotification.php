@@ -10,7 +10,8 @@ class CouldNotSendNotification extends Exception
     public static function serviceRespondedWithAnError(DomainException $exception)
     {
         return new static(
-            "Service responded with an error '{$exception->getCode()}: {$exception->getMessage()}'");
+            "Service responded with an error '{$exception->getCode()}: {$exception->getMessage()}'"
+        );
     }
 
     /**
@@ -21,4 +22,3 @@ class CouldNotSendNotification extends Exception
         return new static('Notification was not sent. Missing `to` number.');
     }
 }
-

@@ -11,10 +11,8 @@ use Trez\RayganSms\Facades\RayganSms;
 
 class RaygansmsChannel
 {
-
     public function __construct()
     {
-
     }
 
     /**
@@ -45,7 +43,7 @@ class RaygansmsChannel
             RayganSms::sendMessage($to, $message->getContent());
 
             event(new MessageWasSent($notifiable, $notification));
-        }catch (DomainException $e) {
+        } catch (DomainException $e) {
             throw CouldNotSendNotification::serviceRespondedWithAnError($e);
         }
     }
