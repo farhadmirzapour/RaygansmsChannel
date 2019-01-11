@@ -29,7 +29,9 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 composer require trez/raygan-sms-notification-channel
 ```
 <div dir="rtl">
-توجه داشته باشید جهت ارسال پیام از سرویس RayganSms API  استفاده می نماید که به همراه این پکیج بصورت اتوماتیک نصب می شود. بنابراین چنانچه از قبل این پکیج بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نمی باشد، در غیر این صورت مطابق دستورالعمل مربوطه )تنظیملت username,password,...(  اقدام نمایید.
+توجه داشته باشید سرویس <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  به همراه این پکیج بصورت اتوماتیک بر روی پروژه شما نصب می شود.
+    
+    بنابراین چنانچه از قبل این پکیج بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نمی باشد، در غیر این صورت مطابق دستورالعمل مربوطه )تنظیملت username,password,...(  اقدام نمایید.
 </div>
 ```
 
