@@ -99,7 +99,7 @@ class AccountApproved extends Notification
 
 ## لایسنس
 
-لایسنس (MIT) . جهت اطلاعات در مورد این لایسنس به [License File](LICENSE.md) مراجعه نمایید. 
+لایسنس (MIT) . جهت اطلاعات در مورد این لایسنس به [License File](LICENSE) مراجعه نمایید. 
 
 </div>
 
