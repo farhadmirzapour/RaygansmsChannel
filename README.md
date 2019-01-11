@@ -12,7 +12,7 @@ This package makes it easy to send notifications using <a href="https://github.c
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
 <div dir="rtl">
-این پکیج امکان ارسال اعلانات (notifications) با استفاده از <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  را فراهم می کند.
+این پکیج امکان ارسال اعلانات (notifications) با استفاده از <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  را فراهم می سازد.
 
 ## محتوا
 
