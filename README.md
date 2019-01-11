@@ -59,6 +59,7 @@ class AccountApproved extends Notification
     }
 }
 ```
+
 <div dir="rtl">
  همچنین جهت اطمینان از ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه می نماییم : 
 </div>
@@ -71,7 +72,7 @@ class AccountApproved extends Notification
     }
 ``` 
 
-<div>
+<div dir="rtl">
     توجه داشته باشید در این مدل ستون حاوی شماره تماس کاربر phone_number  می باشد. در غیر اینصورت $this->phone_number را مطابق نام ستون حاوی شماره تماس کاربر تغییر دهید.
 </div>
 <div dir="rtl">
