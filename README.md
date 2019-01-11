@@ -73,7 +73,7 @@ class AccountApproved extends Notification
 ``` 
 
 <div dir="rtl">
-    توجه داشته باشید در این مدل ستون حاوی شماره تماس کاربر phone_number  می باشد. در غیر اینصورت this->phone_number$ را مطابق نام ستون حاوی شماره تماس کاربر تغییر دهید.
+    توجه داشته باشید در این مدل ستون حاوی شماره تماس کاربر phone_number  می باشد. در غیر اینصورت this->phone_number$ را مطابق با نام ستون حاوی شماره تماس کاربر تغییر دهید.
 </div>
 <div dir="rtl">
     
