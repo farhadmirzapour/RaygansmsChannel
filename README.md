@@ -1,5 +1,5 @@
 
-This package makes it easy to send notifications using Raygan Sms with Laravel 5.3+.
+This package makes it easy to send notifications using <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> with Laravel 5.3+.
 
 # RayganSms notifications channel for Laravel 5.3+
 
@@ -12,7 +12,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
 <div dir="rtl">
-این پکیج امکان ارسال اعلانات (notifications) با استفاده از RayganSms API  را فراهم می کند.
+این پکیج امکان ارسال اعلانات (notifications) با استفاده از <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  را فراهم می کند.
 
 ## محتوا
 
@@ -28,7 +28,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 ```bash
 composer require trez/raygan-sms-notification-channel
 ```
-<div dir="rtl">
+<div dir="rtl" align="justify">
 توجه داشته باشید سرویس <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  به همراه این پکیج بصورت اتوماتیک بر روی پروژه شما نصب می شود.
     بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نیست، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)اقدام نمایید.
 </div>
