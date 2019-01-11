@@ -30,14 +30,14 @@ composer require trez/raygan-sms-notification-channel
 ```
 <div dir="rtl" align="justify">
 توجه داشته باشید سرویس <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  به همراه این پکیج بصورت اتوماتیک بر روی پروژه شما نصب می شود.
-    بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، اقدامات مرتبط با نصب به پایان رسیده، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)عمل نمایید.
+    بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، اقدامات مرتبط با نصب به پایان رسیده، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)اقدام نمایید.
 </div>
 
 <div dir="rtl">
     
 ## استفاده
 
-با استفاده از متد `()via` این کانال را به notefication  خود اضافه نمایید:
+با استفاده از متد `()via` این کانال را به notefication  خود اضافه نموده و متد toRayganSms را مطابق زیر جهت ارسال اعلان اضافه می نماییم:
 </div>
 
 ```php
@@ -60,7 +60,7 @@ class AccountApproved extends Notification
 }
 ```
 <div dir="rtl">
- همچنین جهت اطمینان جهت ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه می نماییم : 
+ همچنین جهت اطمینان از ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه می نماییم : 
 </div>
 
 ```php
@@ -71,6 +71,9 @@ class AccountApproved extends Notification
     }
 ``` 
 
+<div>
+    توجه داشته باشید در این مدل ستون حاوی شماره تماس کاربر phone_number  می باشد. در غیر اینصورت $this->phone_number را مطابق نام ستون حاوی شماره تماس کاربر تغییر دهید.
+</div>
 <div dir="rtl">
     
 ### متدها
