@@ -30,7 +30,7 @@ composer require trez/raygan-sms-notification-channel
 ```
 <div dir="rtl">
 توجه داشته باشید سرویس <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  به همراه این پکیج بصورت اتوماتیک بر روی پروژه شما نصب می شود.
-    بنابراین چنانچه از قبل این پکیج بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نیست، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)اقدام نمایید.
+    بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نیست، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)اقدام نمایید.
 </div>
 
 ### Setting up the SmscRu service
