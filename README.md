@@ -33,7 +33,6 @@ composer require trez/raygan-sms-notification-channel
     
     بنابراین چنانچه از قبل این پکیج بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، نیازی به اقدام دیگری نمی باشد، در غیر این صورت مطابق دستورالعمل مربوطه )تنظیملت username,password,...(  اقدام نمایید.
 </div>
-```
 
 ### Setting up the SmscRu service
 
