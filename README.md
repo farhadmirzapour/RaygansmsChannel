@@ -53,7 +53,7 @@ class AccountApproved extends Notification
 {
     public function via($notifiable)
     {
-        return [RaygansmsChannel::class];
+        return [RayganSmsChannel::class];
     }
 
     public function toRayganSms($notifiable)
