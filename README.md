@@ -117,16 +117,16 @@ public function routeNotificationForSmscru()
     
 ### متدها
 
-`content()`: متن ارسالی به دریافت کننده.
+`()content`: متن ارسالی به دریافت کننده.
 
 
 ## تولید کننده
 
 - [Farhad Mirzapour](https://github.com/farhadmirzapour)
 
-## License
+## لایسنس
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+لایسنس (MIT) . جهت اطلاعات در مورد این لایسنس به [License File](LICENSE.md) مراجعه نمایید. 
 
 </div>
 
