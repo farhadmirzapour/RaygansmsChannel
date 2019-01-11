@@ -4,8 +4,6 @@ namespace NotificationChannels\RayganSms;
 
 use DomainException;
 use Illuminate\Notifications\Notification;
-use NotificationChannels\RayganSms\Events\MessageWasSent;
-use NotificationChannels\RayganSms\Events\SendingMessage;
 use NotificationChannels\RayganSms\Exceptions\CouldNotSendNotification;
 use Trez\RayganSms\Facades\RayganSms;
 
