@@ -64,16 +64,24 @@ class AccountApproved extends Notification
 ```
 
 <div dir="rtl">
- همچنین جهت اطمینان از ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه نمائید : 
+ چنانچه از مدل جهت استخراج شماره تماس کاربر استفاده می نمایید ابتدا trait زیر را به مدل خود اضافه نمائید :   
 </div>
 
 ```php
     use Notifiable;
+```
+
+<div dir="rtl">
+ همچنین جهت اطمینان از ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه نمائید : 
+</div>
+
+```php
     public function routeNotificationForRayganSms()
     {
         return $this->phone_number;
     }
 ``` 
+
 
 <div dir="rtl">
     توجه داشته باشید در این مدل ستون حاوی شماره تماس کاربر phone_number  می باشد. در غیر اینصورت this->phone_number$ را مطابق با نام ستون حاوی شماره تماس کاربر تغییر دهید.
