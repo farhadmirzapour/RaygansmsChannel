@@ -3,14 +3,14 @@ This package makes it easy to send notifications using <a href="https://github.c
 
 # RayganSms notifications channel for Laravel 5.3+
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/trez/RayganSms.svg?style=flat-square)](https://packagist.org/packages/trez/trez/raygan-sms)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://travis-ci.org/trez/raygan-sms-notification-channel)
-[![StyleCI](https://styleci.io/repos/65589451/shield)](https://styleci.io/repos/65589451)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![StyleCI](https://github.styleci.io/repos/164848543/shield?branch=master)](https://github.styleci.io/repos/164848543)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/build.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Quality Score](https://img.shields.io/scrutinizer/g/farhadmirzapour/RaygansmsChannel.svg?style=flat-square)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel)
+[![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
 
 <div dir="rtl">
 این پکیج امکان ارسال اعلانات (notifications) با استفاده از <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  را فراهم می سازد.
