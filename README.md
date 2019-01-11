@@ -97,7 +97,7 @@ class AccountApproved extends Notification
     public function toRayganSms($notifiable)
     {
         return (new RayganSmsMessage())
-            ->content("Task #{$notifiable->id} is complete!");
+            ->content("your message to send ...");
     }
 }
 ```
@@ -106,23 +106,27 @@ class AccountApproved extends Notification
 </div>
 
 ```php
+use Notifiable;
 public function routeNotificationForSmscru()
 {
     return $this->phone;
 }
-```
+``` 
 
 <div dir="rtl">
+    
 ### متدها
 
 `content()`: متن ارسالی به دریافت کننده.
-</div>
 
-## Credits
+
+## تولید کننده
 
 - [Farhad Mirzapour](https://github.com/farhadmirzapour)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+</div>
 
