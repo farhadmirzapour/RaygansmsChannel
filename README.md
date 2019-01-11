@@ -13,7 +13,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 [![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
 <div dir="rtl">
 این پکیج امکان ارسال اعلانات (notifications) با استفاده از RayganSms API  را فراهم می کند.
-</div>
+
 ## محتوا
 
 - [Installation](#installation)
@@ -24,7 +24,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 ## Installation
 
 با استفاده از composer  قادر به نصب این سرویس می باشید:
-
+</div>
 ```bash
 composer require trez/raygan-sms-notification-channel
 ```
