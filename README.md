@@ -85,7 +85,7 @@ class AccountApproved extends Notification
 `()content`: متن ارسالی به دریافت کننده.
 
 
-## تولید کننده
+## تولیدکننده
 
 - [Farhad Mirzapour](https://github.com/farhadmirzapour)
 
