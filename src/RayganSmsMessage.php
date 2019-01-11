@@ -11,6 +11,7 @@ class RayganSmsMessage
 
     /**
      * @param string $content
+     *
      * @return static
      */
     public static function create($content = '')
@@ -28,6 +29,7 @@ class RayganSmsMessage
 
     /**
      * @param string $content
+     *
      * @return $this
      */
     public function content($content)
