@@ -75,10 +75,11 @@ SMSCRU_HOST=http://www1.smsc.kz/
 ],
 ...
 ```
+
 <div dir="rtl">
 ## نحوه استفاده
 
-با استفاده از متد `via()` این کانال را به notefication  خود اضاقه نمایید:
+با استفاده از متد `()via` این کانال را به notefication  خود اضافه نمایید:
 </div>
 
 ```php
@@ -101,7 +102,7 @@ class AccountApproved extends Notification
 }
 ```
 <div dir="rtl">
- متد `routeNotificationForSmscru()` جهت اطمینان در دریافت شماره تملس کاربر اضافه می نماییم : مورد نظر خود متد 
+ همچنین جهت اطمینان جهت ارسال پیام به شماره کاربر، متد زیر را به مدل مورد نظر خود که معمولا مدل User  می باشد اضافه می نماییم : 
 </div>
 
 ```php
@@ -110,6 +111,7 @@ public function routeNotificationForSmscru()
     return $this->phone;
 }
 ```
+
 <div dir="rtl">
 ### متدها
 
