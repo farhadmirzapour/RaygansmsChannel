@@ -33,41 +33,6 @@ composer require trez/raygan-sms-notification-channel
     بنابراین چنانچه از قبل پکیج <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a> بر روی پروژه شما نصب و تنظیمات مربوطه را انجام داده اید ، اقدامات مرتبط با نصب به پایان رسیده، در غیر این صورت مطابق مستندات مربوطه این پکیج (تنظیمات username,password, ...)عمل نمایید.
 </div>
 
-### Setting up the SmscRu service
-
-Add your SmscRu login, secret key (hashed password) and default sender name (or phone number) to your `config/services.php`:
-
-```php
-// config/services.php
-...
-'smscru' => [
-    'login'  => env('SMSCRU_LOGIN'),
-    'secret' => env('SMSCRU_SECRET'),
-    'sender' => 'John_Doe'
-],
-...
-```
-
-> If you want use other host than `smsc.ru`, you MUST set custom host WITH trailing slash.
-
-```
-// .env
-...
-SMSCRU_HOST=http://www1.smsc.kz/
-...
-```
-
-```php
-// config/services.php
-...
-'smscru' => [
-    ...
-    'host' => env('SMSCRU_HOST'),
-    ...
-],
-...
-```
-
 <div dir="rtl">
     
 ## استفاده
