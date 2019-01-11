@@ -33,7 +33,7 @@ class RayganSmsChannel
             return;
         }
 
-        $message = $notification->toRayganSms($notifiable);
+        $message = $notification->{'toRayganSms'}($notifiable);
 
         if (is_string($message)) {
             $message = new RayganSmsMessage($message);
