@@ -70,7 +70,7 @@ SMSCRU_HOST=http://www1.smsc.kz/
 
 <div dir="rtl">
     
-## نحوه استفاده
+## استفاده
 
 با استفاده از متد `()via` این کانال را به notefication  خود اضافه نمایید:
 </div>
