@@ -77,6 +77,7 @@ SMSCRU_HOST=http://www1.smsc.kz/
 ```
 
 <div dir="rtl">
+    
 ## نحوه استفاده
 
 با استفاده از متد `()via` این کانال را به notefication  خود اضافه نمایید:
@@ -106,11 +107,11 @@ class AccountApproved extends Notification
 </div>
 
 ```php
-use Notifiable;
-public function routeNotificationForSmscru()
-{
-    return $this->phone;
-}
+    use Notifiable;
+    public function routeNotificationForRayganSms()
+    {
+        return $this->phone_number;
+    }
 ``` 
 
 <div dir="rtl">
