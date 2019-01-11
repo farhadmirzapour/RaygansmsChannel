@@ -7,11 +7,11 @@ This package makes it easy to send notifications using <a href="https://github.c
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://travis-ci.org/trez/raygan-sms-notification-channel)
 [![StyleCI](https://styleci.io/repos/65589451/shield)](https://styleci.io/repos/65589451)
-[![SensioLabsInsight](https://insight.symfony.com/projects/e20ac77d-a562-4cf8-a311-83de788f1405)]
-(https://insight.symfony.com/projects/e20ac77d-a562-4cf8-a311-83de788f1405)
-[![Quality Score](https://img.shields.io/scrutinizer/g/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/build.png?b=master)](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/farhadmirzapour/RaygansmsChannel/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 <div dir="rtl">
 این پکیج امکان ارسال اعلانات (notifications) با استفاده از <a href="https://github.com/farhadmirzapour/RayganSms" target="_blank">RayganSms API</a>  را فراهم می سازد.
 
