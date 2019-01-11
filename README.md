@@ -8,7 +8,7 @@ This package makes it easy to send notifications using <a href="https://github.c
 [![Build Status](https://img.shields.io/travis/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://travis-ci.org/trez/raygan-sms-notification-channel)
 [![StyleCI](https://styleci.io/repos/65589451/shield)](https://styleci.io/repos/65589451)
 [![SensioLabsInsight](https://insight.symfony.com/projects/e20ac77d-a562-4cf8-a311-83de788f1405)]
-(e20ac77d-a562-4cf8-a311-83de788f1405)
+(https://insight.symfony.com/projects/e20ac77d-a562-4cf8-a311-83de788f1405)
 [![Quality Score](https://img.shields.io/scrutinizer/g/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/trez/raygan-sms-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/trez/raygan-sms-notification-channel/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/trez/raygan-sms-notification-channel.svg?style=flat-square)](https://packagist.org/packages/trez/raygan-sms-notification-channel)
