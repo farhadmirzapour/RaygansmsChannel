@@ -23,7 +23,6 @@ class RayganSmsChannel
      */
     public function send($notifiable, Notification $notification)
     {
-
         if (!$to = $notifiable->routeNotificationFor('raygansms')) {
             return;
         }
