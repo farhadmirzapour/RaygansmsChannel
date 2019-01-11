@@ -3,13 +3,13 @@
 namespace NotificationChannels\RayganSms;
 
 use DomainException;
-use NotificationChannels\RayganSms\Exceptions\CouldNotSendNotification;
+use Illuminate\Notifications\Notification;
 use NotificationChannels\RayganSms\Events\MessageWasSent;
 use NotificationChannels\RayganSms\Events\SendingMessage;
-use Illuminate\Notifications\Notification;
+use NotificationChannels\RayganSms\Exceptions\CouldNotSendNotification;
 use Trez\RayganSms\Facades\RayganSms;
 
-class RaygansmsChannel
+class RayganSmsChannel
 {
     public function __construct()
     {
@@ -18,18 +18,18 @@ class RaygansmsChannel
     /**
      * Send the given notification.
      *
-     * @param  mixed  $notifiable
-     * @param  Notification  $notification
+     * @param mixed        $notifiable
+     * @param Notification $notification
      *
      * @return void
      */
     public function send($notifiable, Notification $notification)
     {
-        if (! $this->shouldSendMessage($notifiable, $notification)) {
+        if (!$this->shouldSendMessage($notifiable, $notification)) {
             return;
         }
 
-        if (! $to = $notifiable->routeNotificationFor('raygansms')) {
+        if (!$to = $notifiable->routeNotificationFor('raygansms')) {
             return;
         }
 
@@ -52,7 +52,7 @@ class RaygansmsChannel
      * Check if we can send the notification.
      *
      * @param $notifiable
-     * @param   Notification $notification
+     * @param Notification $notification
      *
      * @return bool
      */

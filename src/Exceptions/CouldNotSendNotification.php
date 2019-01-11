@@ -2,8 +2,8 @@
 
 namespace NotificationChannels\RayganSms\Exceptions;
 
-use Exception;
 use DomainException;
+use Exception;
 
 class CouldNotSendNotification extends Exception
 {
