@@ -84,14 +84,14 @@ SMSCRU_HOST=http://www1.smsc.kz/
 
 ```php
 use Illuminate\Notifications\Notification;
-use NotificationChannels\SmscRu\SmscRuMessage;
-use NotificationChannels\SmscRu\SmscRuChannel;
+use NotificationChannels\RayganSms\RaygansmsChannel;
+use NotificationChannels\RayganSms\RayganSmsMessage;
 
 class AccountApproved extends Notification
 {
     public function via($notifiable)
     {
-        return [TelegramChannel::class];
+        return [RaygansmsChannel::class];
     }
 
     public function toRayganSms($notifiable)
