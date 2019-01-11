@@ -18,6 +18,9 @@ This package makes it easy to send notifications using <a href="https://github.c
 
 - [نصب](#نصب)
 - [استفاده](#استفاده)
+- [متدها](#متدها)
+- [تولیدکننده](#تولیدکننده)
+- [لایسنس](#لایسنس)
 
 
 ## نصب  
