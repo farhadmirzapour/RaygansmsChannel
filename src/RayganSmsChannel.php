@@ -25,9 +25,6 @@ class RayganSmsChannel
      */
     public function send($notifiable, Notification $notification)
     {
-        if (!$this->shouldSendMessage($notifiable, $notification)) {
-            return;
-        }
 
         if (!$to = $notifiable->routeNotificationFor('raygansms')) {
             return;
@@ -41,23 +38,8 @@ class RayganSmsChannel
 
         try {
             RayganSms::sendMessage($to, $message->getContent());
-
-            event(new MessageWasSent($notifiable, $notification));
         } catch (DomainException $e) {
             throw CouldNotSendNotification::serviceRespondedWithAnError($e);
         }
-    }
-
-    /**
-     * Check if we can send the notification.
-     *
-     * @param $notifiable
-     * @param Notification $notification
-     *
-     * @return bool
-     */
-    protected function shouldSendMessage($notifiable, Notification $notification)
-    {
-        return event(new SendingMessage($notifiable, $notification), [], true) !== false;
     }
 }
