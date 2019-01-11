@@ -16,7 +16,7 @@ This package makes it easy to send notifications using Raygan Sms with Laravel 5
 
 ## محتوا
 
-- [نصب و پیکره بندی سرویس](#نصب و پیکره بندی سرویس)
+- [نصب](#نصب)
 - [نحوه استفاده](#usage)
 
 
