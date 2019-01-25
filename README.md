@@ -47,7 +47,8 @@ composer require trez/raygan-sms-notification-channel
 ```php
 use Illuminate\Notifications\Notification;
 use NotificationChannels\RayganSms\RaygansmsChannel;
-use NotificationChannels\RayganSms\RayganSmsMessage;
+use NotificationChannels\RayganSms\TextMessage;
+use NotificationChannels\RayganSms\AuthCodeMessage;
 
 class AccountApproved extends Notification
 {
