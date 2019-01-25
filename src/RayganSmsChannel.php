@@ -28,6 +28,7 @@ class RayganSmsChannel
         }
 
         $message = $notification->{'toRayganSms'}($notifiable);
+
         try {
             if ($message->type == 'txt') {
                 RayganSms::sendMessage($to, $message->content);
