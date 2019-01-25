@@ -10,7 +10,7 @@ class AuthCodeMessage
     public $content;
 
     /**
-     * @var boolean
+     * @var bool
      */
     public $autoGenerate;
 
@@ -32,7 +32,7 @@ class AuthCodeMessage
     }
 
     /**
-     * @param boolean $autoGenerateCode
+     * @param bool $autoGenerateCode
      *
      * @return $this
      */
@@ -51,8 +51,8 @@ class AuthCodeMessage
     public function toArray()
     {
         return [
-            'content' => $this->content,
-            'autoGenerate' => $this->autoGenerate
+            'content'      => $this->content,
+            'autoGenerate' => $this->autoGenerate,
         ];
     }
 }
