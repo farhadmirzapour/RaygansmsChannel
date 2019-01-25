@@ -65,6 +65,34 @@ class AccountApproved extends Notification
 ```
 
 <div dir="rtl">
+ جهت ارسال کد فعال سازی به کاربر می توان به صورت زیر عمل نمود :
+</div>    
+
+```php
+...
+    public function toRayganSms($notifiable)
+    {
+        return (new AuthCodeMessage)
+                    ->content('Welcome');
+    }
+    ...
+```
+
+<div dir="rtl">
+ و چنانچه بخواهیم کد فعالس ازی دلخواه ارسال کنیم  :
+</div> 
+
+```php
+...
+    public function toRayganSms($notifiable)
+    {
+        return (new AuthCodeMessage)
+                    ->content('کد تایید شما : 325689')
+                    ->autoGenerate(false);
+    }
+```
+
+<div dir="rtl">
  همچنین چنانچه جهت اطمینان از ارسال پیام به شماره کاربر،  از مدل که معمولا مدل User می باشد جهت استخراج شماره تماس کاربر استفاده می نمایید، ابتدا trait زیر را به مدل خود اضافه نمائید :   
 </div>
 
