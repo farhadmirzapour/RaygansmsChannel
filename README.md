@@ -121,10 +121,6 @@ class AccountApproved extends Notification
 </div>
 <div dir="rtl">
     
-### متدها
-
-`()content`: متن ارسالی به دریافت کننده.
-
 
 ## تولیدکننده
 
