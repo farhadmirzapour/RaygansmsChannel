@@ -28,13 +28,12 @@ class RayganSmsChannel
         }
 
         $message = $notification->{'toRayganSms'}($notifiable);
-
-        if (is_string($message)) {
-            $message = new RayganSmsMessage($message);
-        }
-
         try {
-            RayganSms::sendMessage($to, $message->getContent());
+            if ($message->type == 'txt') {
+                RayganSms::sendMessage($to, $message->content);
+            } else {
+                RayganSms::sendAuthCode($to, $message->content, $message->autoGenerate);
+            }
         } catch (DomainException $e) {
             throw CouldNotSendNotification::serviceRespondedWithAnError($e);
         }
