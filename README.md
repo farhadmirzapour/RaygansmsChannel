@@ -58,7 +58,7 @@ class AccountApproved extends Notification
 
     public function toRayganSms($notifiable)
     {
-        return (new RayganSmsMessage())
+        return (new TextMessage)
             ->content("your message to send ...");
     }
 }
@@ -79,7 +79,7 @@ class AccountApproved extends Notification
 ```
 
 <div dir="rtl">
- و چنانچه بخواهیم کد فعالس ازی دلخواه ارسال کنیم  :
+ و چنانچه بخواهیم کد فعال سازی دلخواه ارسال کنیم  :
 </div> 
 
 ```php
