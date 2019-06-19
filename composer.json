@@ -23,8 +23,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.6.4",
-    "illuminate/notifications": "5.1 - 5.7",
-    "trez/raygan-sms": ">=2.0"
+    "illuminate/notifications": "*",
+    "trez/raygan-sms": "*"
   },
   "autoload": {
     "psr-4": {
